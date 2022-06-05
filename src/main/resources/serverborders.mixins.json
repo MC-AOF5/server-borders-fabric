@@ -4,11 +4,9 @@
   "package": "net.morbo.serverborders.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "ServerPlayerEntityMixin"
   ],
   "client": [
-  ],
-  "server": [
-    "ServerPlayerEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1

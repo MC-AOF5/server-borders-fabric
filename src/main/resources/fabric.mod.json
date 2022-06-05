@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "server-borders",
+  "id": "serverborders",
   "version": "${version}",
 
   "name": "Server Borders",
-  "description": "Allow travel beatween server by crossing world border",
+  "description": "Allow travel between server by crossing world border",
   "authors": [
     "Morb0"
   ],
@@ -14,16 +14,16 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/server-borders/icon.png",
+  "icon": "assets/serverborders/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.morbo.serverborders.ServerBoards"
+      "net.morbo.serverborders.ServerBorders"
     ]
   },
   "mixins": [
-    "server-borders.mixins.json"
+    "serverborders.mixins.json"
   ],
 
   "depends": {
