@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "server-borders",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Server Borders",
+  "description": "Allow travel beatween server by crossing world border",
   "authors": [
-    "Me!"
+    "Morb0"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
+    "homepage": "https://github.com/MC-AOF5/server-borders-fabric",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/server-borders/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.morbo.serverborders.ServerBoards"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "server-borders.mixins.json"
   ],
 
   "depends": {
@@ -33,6 +33,5 @@
     "java": ">=17"
   },
   "suggests": {
-    "another-mod": "*"
   }
 }
